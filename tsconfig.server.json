@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "incremental": false,
+    "outDir": "./dist/",
+    "module": "commonjs"
+  },
+  "include": [
+    "src/server.ts",
+    "src/api/common/**/*.ts",
+    "src/mikro-orm.config.ts"
+  ]
+}
